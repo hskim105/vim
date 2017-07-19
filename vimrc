@@ -1,5 +1,5 @@
 " Colors
-
+set background=dark " set background as dark
 syntax enable		" enable syntax processing
 
 " Spaces & Tabs
@@ -11,11 +11,11 @@ set expandtab		" tabs are spaces
 set number		    " show line numbers
 set showcmd		    " show command in bottom bar
 " set cursorline      " highlight current line
-set wildmenu        " visual autocomplete for command men
+set wildmenu        " visual autocomplete for command menu
 set showmatch       " highlight matching [{()}]
 set lazyredraw      " redraw only when we need to
 filetype indent on  " load filetype-specific indent files
 
 " Searching
-set incsearch       " search as characters are  entered
-set hlsearch        " highligh matches
+set incsearch       " search as characters are entered
+set hlsearch        " highlight matches
