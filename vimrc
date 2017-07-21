@@ -30,6 +30,7 @@ set expandtab		" tabs are spaces
 
 " UI Config
 set number		    " show line numbers
+set relativenumber  " show relative number
 set showcmd		    " show command in bottom bar
 " set cursorline      " highlight current line
 set wildmenu        " visual autocomplete for command menu
