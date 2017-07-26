@@ -20,6 +20,8 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'jceb/vim-orgmode'
 " speeddating.vim
 Plug 'tpope/vim-speeddating'
+" Markdown syntax
+Plug 'plasticboy/vim-markdown'
 " Initialize plugin system
 call plug#end()
 
