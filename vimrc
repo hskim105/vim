@@ -26,6 +26,10 @@ Plug 'plasticboy/vim-markdown'
 call plug#end()
 
 set nocompatible    "
+
+" Leader
+let mapleader=','
+
 " Colors
 set background=dark " set background as dark
 syntax enable       " enable syntax processing
