@@ -33,7 +33,11 @@ syntax enable       " enable syntax processing
 " Spaces & Tabs
 set tabstop=4       " number of visual spaces per TAB
 set softtabstop=4   " number of spaces in tab when editing
+set shiftwidth=4    " how many colums text is indented with reindent operations
 set expandtab       " tabs are spaces
+set autoindent      " enable auto indent
+set smartindent     " enable smart indent
+filetype indent on  " load filetype-specific indent files
 
 " UI Config
 set number          " show line numbers
@@ -43,8 +47,6 @@ set showcmd         " show command in bottom bar
 set wildmenu        " visual autocomplete for command menu
 set showmatch       " highlight matching [{()}]
 set lazyredraw      " redraw only when we need to
-filetype indent on  " load filetype-specific indent files
-set autoindent      "
 filetype plugin on  "
 set list            " show hidden characters
 set list listchars=tab:›-,trail:-,extends:>,precedes:<,eol:¬
