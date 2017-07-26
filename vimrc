@@ -13,12 +13,17 @@ Plug 'scrooloose/nerdcommenter'
 " Table-mode (instant table creation)
 Plug 'dhruvasagar/vim-table-mode'
 " vim-airline (menu status)
-Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline'
 " vim-tmux-navigator
 Plug 'christoomey/vim-tmux-navigator'
+" vim-orgmode
+Plug 'jceb/vim-orgmode'
+" speeddating.vim
+Plug 'tpope/vim-speeddating'
 " Initialize plugin system
 call plug#end()
 
+set nocompatible    "
 " Colors
 set background=dark " set background as dark
 syntax enable       " enable syntax processing
