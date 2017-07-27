@@ -14,6 +14,9 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'dhruvasagar/vim-table-mode'
 " vim-airline (menu status)
 Plug 'vim-airline/vim-airline'
+" Ignore trailing space when file is markdown
+autocmd FileType * unlet! g:airline#extensions#whitespace#checks
+autocmd FileType markdown let g:airline#extensions#whitespace#checks = [ 'indent' ]
 " vim-tmux-navigator
 Plug 'christoomey/vim-tmux-navigator'
 " vim-orgmode
@@ -22,6 +25,7 @@ Plug 'jceb/vim-orgmode'
 Plug 'tpope/vim-speeddating'
 " Markdown syntax
 Plug 'plasticboy/vim-markdown'
+let g:vim_markdown_folding_disabled = 1     " Disable folding
 " Initialize plugin system
 call plug#end()
 
