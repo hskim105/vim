@@ -38,6 +38,9 @@ Plug 'tpope/vim-speeddating'
 Plug 'plasticboy/vim-markdown'
 let g:vim_markdown_folding_disabled = 1     " Disable folding
 
+" vim-gitgutter
+Plug 'airblade/vim-gitgutter'
+
 " Initialize plugin system
 call plug#end()
 
